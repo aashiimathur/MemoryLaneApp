@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Memory Lane</string>
+    <string name="memory_lane">Memory Lane</string>
+    <string name="logo">Logo</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="msg_token_fmt" />
+</resources>

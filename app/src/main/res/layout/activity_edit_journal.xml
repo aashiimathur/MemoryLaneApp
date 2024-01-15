@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_edit_journal.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_main"
+    tools:context=".EditJournalActivity">
+
+    <EditText
+        android:id="@+id/edit_post_title_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit Post Title"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="75dp"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/edit_post_description_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_post_title_et"
+        android:hint="Edit Post Thoughts"
+        android:padding="15dp"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/edit_post_update_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_post_description_et"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/transparent"
+        android:text="Update Post"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="25dp"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
